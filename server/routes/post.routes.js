@@ -8,6 +8,7 @@ router.route('/posts').get(PostController.getPosts);
 // Get one post by cuid
 router.route('/posts/:cuid').get(PostController.getPost);
 
+// Test for CI
 // Add a new Post
 router.route('/posts').post(PostController.addPost);
 
